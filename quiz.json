@@ -78,5 +78,31 @@
          "answer4": "All the time"
      }
  ],
- 
+ "Otter": [
+     {
+         "id": 1,
+         "question": "A river ottre is one of how many species of otters throughout the world",
+         "answer1": "10 Species",
+         "answer2": "6 Species",
+         "answer3": "13 Species",
+         "answer4": "4 Species"
+     },
+     {
+         "id": 2,
+         "question": "What are otter babies called",
+         "answer1": "Germs",
+         "answer2": "Kits",
+         "answer3": "Littles",
+         "answer4": "Pups"
+     },
+     {
+         "id": 3,
+         "question": "What is a river otter home called",
+         "answer1": "Dam",
+         "answer2": "Lodge",
+         "answer3": "Yurt",
+         "answer4": "Den"
+     }
+ ]
+
 }
