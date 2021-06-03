@@ -11,3 +11,8 @@ test('test setup working #1', () => {
     expect(true).toBeTruthy()
     expect(false).toBeFalsy()
 })
+
+test('GET /', () => {
+    expect.assertions(1)
+    expect('/').toContain('Hello World')
+})
