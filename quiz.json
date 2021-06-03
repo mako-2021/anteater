@@ -52,5 +52,31 @@
         "answer4": "A heavy stomach makes jellyfish swim very fast"
     }
   ],
-
+ "owl": [
+     {
+         "id": 1,
+         "question": "Where do owls live",
+         "answer1": "Oceans",
+         "answer2": "Desert",
+         "answer3": "Forest",
+         "answer4": "Mountains"
+     },
+     {
+         "id": 2,
+         "question": "What do Owls eat",
+         "answer1": "Plants",
+         "answer2": "Animals",
+         "answer3": "Plants and animals",
+         "answer4": "Grains"
+     },
+     {
+         "id": 3,
+         "question": "When do owls hunt",
+         "answer1": "At night",
+         "answer2": "In the morning",
+         "answer3": "In the afternoon",
+         "answer4": "All the time"
+     }
+ ],
+ 
 }
