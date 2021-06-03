@@ -11,7 +11,7 @@ server.engine('hbs', hbs({ extname: 'hbs' })) // tells us that all the hbs files
 server.set('view engine', 'hbs') // allowing us to use handlebars
 
 server.get('/', (req, res) => { // ./ in current directory  / -> from root ../ go up a directory to find file
-  res.send('Hello World')
+  res.render('home')
 })
 
 server.get('/question', (req, res) => {
