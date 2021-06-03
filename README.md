@@ -19,11 +19,13 @@
 1. Have more than one quiz
 
 2. Have a decent amount of questions per quiz (more than two)
+3. Keep score + return score once the user has finished the quiz 
+- Route at the end of the quiz "you got 3/5!"  
 
-3. Add some visual and aural extras
+4. Add some visual and aural extras
 - Nice CSS layout
 - JS? 
 - Added sound effects (corresponding animal noise on correct answer?)
 
-4. Timed game
+5. Timed game
 - User has a certain amount of time to answer a question
