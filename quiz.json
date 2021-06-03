@@ -1,0 +1,30 @@
+{
+  "anteater": [
+      {
+          "id": 1,
+          "question": "What kind of animal is an anteater",
+          "answer1": "A mammal",
+          "answer2": "A marsupial",
+          "answer3": "A primate",
+          "answer4": "An insect"
+      },
+      {
+          "id": 2,
+          "question": "Why do anteaters have long tongues",
+          "answer1": "So they can clean themselves",
+          "answer2": "So they can suck up a lot of insects to eat",
+          "answer3": "So they can make friends with other anteaters",
+          "answer4": "So they can climb trees"
+      },
+      {
+          "id": 3,
+          "question": "Which is NOT a place that anteaters live",
+          "answer1": "Mexico",
+          "answer2": "Central America",
+          "answer3": "South America",
+          "answer4": "Canada"
+
+      }
+  ]  
+  
+}
