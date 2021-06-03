@@ -1,5 +1,6 @@
 const express = require('express') // Bringing in code thats been written for us.
 const hbs = require('express-handlebars') // Bringing in code thats been written for us.
+const questions = require('./models/questions')
 
 const server = express() // Creating our server using the package that was installed.
 
@@ -11,6 +12,10 @@ server.set('view engine', 'hbs') // allowing us to use handlebars
 
 server.get('/', (req, res) => { // ./ in current directory  / -> from root ../ go up a directory to find file
   res.send('Hello World')
+})
+
+server.get('/question', (req, res) => {
+  res.render('question', questions[0])
 })
 
 module.exports = server
