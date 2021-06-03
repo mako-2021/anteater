@@ -24,3 +24,6 @@
 - Nice CSS layout
 - JS? 
 - Added sound effects (corresponding animal noise on correct answer?)
+
+4. Timed game
+- User has a certain amount of time to answer a question
