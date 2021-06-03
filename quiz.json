@@ -25,6 +25,32 @@
           "answer4": "Canada"
 
       }
-  ]  
-  
+  ],  
+  "jelly fish": [
+    {
+        "id": 1,
+        "question": "What type of animal are jellyfish",
+        "answer1": "Fish made of jelly",
+        "answer2": "Marine fish",
+        "answer3": "Marine invertebrates",
+        "answer4": "Amphibians"
+    },
+    {
+        "id": 2,
+        "question": "Jellyfish are __. This means they eat fish, crabs, shrimp and even other jellyfish",
+        "answer1": "Carnivorous",
+        "answer2": "Herbivores",
+        "answer3": "Helium",
+        "answer4": "Backbones"
+    },
+    {
+        "id": 3,
+        "question": "Why do jellyfish digest food quickly",
+        "answer1": "Jellyfish can only eat plants",
+        "answer2": "A heavy stomach would make it difficult to float",
+        "answer3": "Jellyfish don't have a stomach",
+        "answer4": "A heavy stomach makes jellyfish swim very fast"
+    }
+  ],
+
 }
