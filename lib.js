@@ -8,7 +8,6 @@ function getQuiz (cb, path = './quiz.json') {
     })
 }
 
-
 module.exports = {
-    getQuiz
+  getQuiz
 }

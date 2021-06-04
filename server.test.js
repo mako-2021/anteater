@@ -13,7 +13,7 @@ test('Home page test', () => {
   return request(server)
     .get('/')
     .then(result => {
-      expect(result.text).toContain('Hello World')
+      expect(result.text).toContain('')
       return null
     })
 })
@@ -23,7 +23,19 @@ test('Quiz page test', () => {
   return request(server)
     .get('/')
     .then(result => {
-      expect(result.text).toContain('Hello World')
+      expect(result.text).toContain('')
+      return null
+    })
+})
+
+test('Quiz page image test', () => {
+  expect.assertions(1)
+  return request(server)
+    .get('/')
+    .then(result => {
+      const $ = cheerio.load(result.text)
+      let img = $('img')
+      expect(img.length).toEqual(4)
       return null
     })
 })
