@@ -26,7 +26,7 @@
 
       }
   ],  
-  "jelly fish": [
+  "jellyfish": [
     {
         "id": 1,
         "question": "What type of animal are jellyfish",
@@ -78,10 +78,10 @@
          "answer4": "All the time"
      }
  ],
- "Otter": [
+ "otter": [
      {
          "id": 1,
-         "question": "A river ottre is one of how many species of otters throughout the world",
+         "question": "A river otter is one of how many species of otters throughout the world",
          "answer1": "10 Species",
          "answer2": "6 Species",
          "answer3": "13 Species",
