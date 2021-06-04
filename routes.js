@@ -7,14 +7,16 @@ routes.get('/', (req, res) => { // ./ in current directory  / -> from root ../ g
   res.render('home')
 })
 
+// Get route parameters /anteater/1 
+// Use the parameters to search through our object
 routes.get('/:category/:id', (req, res) => {
-  const id = req.params.id
-  const category = req.params.category
-  lib.getQuiz( (err, data) => {
-    // console.log(data)
-    res.send(`welcome to page ${id} page of our ${category} quiz`)
+  lib.getQuizData2((err, quizData) => {
+    if (err) {
+      return res.status(500).send(err.message)
+    }
+    console.log(quizData['anteater'])
+    res.render('quiz')
   })
-  
 })
 
 routes.get('/question', (req, res) => {
