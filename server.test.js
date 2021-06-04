@@ -27,7 +27,6 @@ test('test setup working #1', () => {
 //       return null
 //     })
 // })
-
 test('Quiz page image test', () => {
   expect.assertions(1)
   return request(server)
