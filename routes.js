@@ -8,22 +8,17 @@ const lib = require('./lib')
 // Get route parameters /anteater/1 
 // Use the parameters to search through our object
 routes.get('/:category/:id', (req, res) => {
-  const category = req.params.category
-  const id = req.params.id
   lib.getQuiz((err, quizData) => {
+    const category = req.params.category
+    const id = req.params.id
     if (err) {
       return res.status(500).send(err.message)
     }
     // Use the category to find the animal object
     // Use the id to find the quiz question object
-    //console.log(quizData)
-    const categoryObj = quizData[category]
-    const question = categoryObj.find( item => item.id == id)
-    // console.log(categoryObj)
-    // const viewData = {
-    //   question: result
-    // }
-    res.render('quiz')
+    const questionArr = quizData[category]
+    const question = questionArr.find( item => item.id == id)
+    res.render('quiz', { question })
   })
   //console.log(data['jelly fish'])
 

@@ -1,10 +1,10 @@
 <!-- Side Navigation -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
   <h1 class="w3-xxxlarge w3-text-theme">Quiz Menu</h1>
-  <a href="#" class="w3-bar-item w3-button">Otters</a>
-  <a href="#" class="w3-bar-item w3-button">Anteaters</a>
-  <a href="#" class="w3-bar-item w3-button">Owls</a>
-  <a href="#" class="w3-bar-item w3-button">Jellyfish</a>
+  <a href="/otters/1" class="w3-bar-item w3-button">Otters</a>
+  <a href="/anteaters/1" class="w3-bar-item w3-button">Anteaters</a>
+  <a href="/owls/1" class="w3-bar-item w3-button">Owls</a>
+  <a href="/jellyfish/1" class="w3-bar-item w3-button">Jellyfish</a>
   <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
 </nav>
 
@@ -51,6 +51,7 @@
 <br>
 
 <!-- Buttons -->
+
 <h2 class="w3-center">Buttony buttons</h2>
 <div class="w3-center">
   <br>
@@ -66,11 +67,11 @@
 
 <br>
 <ul class="w3-ul w3-border w3-hoverable">
-  <li class="w3-theme">Question</li>
-  <li>Answer 1</li>
-  <li>Answer 2</li>
-  <li>Answer 3</li>
-  <li>Answer 4</li>
+  <li class="w3-theme">{{question.question}}</li>
+  <li>{{question.answer1}}</li>
+  <li>{{question.answer2}}</li>
+  <li>{{question.answer3}}</li>
+  <li>{{question.answer4}}</li>
 </ul>
 <br>
 </div>
