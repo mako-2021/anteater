@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
-<title>Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-orange.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<head>
+		<title>Quiz Website</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-orange.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;500&family=Varela+Round&display=swap" rel="stylesheet">
+	</head>
 <body>
 
 <!-- Side Navigation -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
   <h1 class="w3-xxxlarge w3-text-theme">Quiz Menu</h1>
-  <a href="#" class="w3-bar-item w3-button">Otters</a>
-  <a href="#" class="w3-bar-item w3-button">Anteaters</a>
-  <a href="#" class="w3-bar-item w3-button">Owls</a>
-  <a href="#" class="w3-bar-item w3-button">Jellyfish</a>
-  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+		<a href="#" class="w3-bar-item w3-button">Otters</a>
+		<a href="#" class="w3-bar-item w3-button">Anteaters</a>
+		<a href="#" class="w3-bar-item w3-button">Owls</a>
+		<a href="#" class="w3-bar-item w3-button">Jellyfish</a>
+		<button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
 </nav>
 
-<!-- Header -->
+<!-- Header Banner -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
@@ -44,10 +49,12 @@
     </div>
 </div>
 
+
+<!-- Heading Text -->
 <div class="w3-container">
 <hr>
 <div class="w3-center">
-  <h1>Header</h1>
+  <h1 style="font-family:'permanent marker';">Header</h1>
 </div>
 
 <hr>
@@ -77,63 +84,61 @@
 <div class="w3-row-padding"> 
 
 <div class="w3-quarter">
-<div class="w3-card">
-  <img src="./otter.png" alt="Otter illstration" style="width:100%">
+<div class="w3-card-5">
+  <a href="/views/quiz.hbs">
+  <img src="./otter.png" alt="Otter illustration" style="width:100%;height:auto"></a>
   <div class="w3-container">
   </div>
-</div>
-</div>
-
-<div class="w3-quarter">
-<div class="w3-card-4">
-  <img src="./anteater.png" alt="Anteater illustration" style="width:100%">
-  <div class="w3-container">
-  </div>
-</div>
-</div>
-
-<div class="w3-quarter">
-<div class="w3-card-4">
-  <img src="./owl.png" alt="Owl illustration" style="width:100%">
-  <div class="w3-container">
-  </div>
-</div>
 </div>
 </div>
 
 <div class="w3-quarter">
 <div class="w3-card-5">
-  <img src="./jellyfish.png" alt="Jellyfish illustration" style="width:100%">
+  <a href="/views/quiz.hbs">
+  <img src="./anteater.png" alt="Anteater illustration" style="width:100%;height:auto"></a>
+  <div class="w3-container">
+  </div>
+</div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-5">
+  <a href="/views/quiz.hbs">
+  <img src="./owl.png" alt="Owl illustration" style="width:100%;height:auto"></a>
+  <div class="w3-container">
+  </div>
+</div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-5">
+  <a href="/views/quiz.hbs">
+  <img src="./jellyfish.png" alt="Jellyfish illustration" style="width:100%;height:auto"></a>
   <div class="w3-container">
   </div>
 </div>
 </div>
 </div>
+</div>
 <hr>
-
-<!-- Footer -->
-{{!-- <footer class="w3-container w3-theme-white w3-padding-16">
-  <p>Maybe some footer text here</p>
-</footer> --}}
 
 <!-- Script for Sidebar -->
 <script>
-function w3_open() {
-  var x = document.getElementById("mySidebar");
-  x.style.width = "100%";
-  x.style.fontSize = "40px";
-  x.style.paddingTop = "10%";
-  x.style.display = "block";
-}
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      x.style.width = "100%";
+      x.style.fontSize = "40px";
+      x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
 
-var mybtn = document.getElementsByClassName("testbtn")[0];
-mybtn.click();
-
+    var mybtn = document.getElementsByClassName("testbtn")[0];
+    mybtn.click();
 </script>
+
 </body>
 </html>
-
