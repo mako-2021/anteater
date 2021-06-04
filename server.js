@@ -1,6 +1,5 @@
 const express = require('express') // Bringing in code thats been written for us.
 const hbs = require('express-handlebars') // Bringing in code thats been written for us.
-const questions = require('./models/questions')
 
 const server = express() // Creating our server using the package that was installed.
 const routes = require('./routes') // bring in the routes that are written in routes.js.

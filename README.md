@@ -29,3 +29,83 @@
 
 5. Timed game
 - User has a certain amount of time to answer a question
+
+
+  "jelly fish": [
+    {
+        "id": 1,
+        "question": "What type of animal are jellyfish",
+        "answer1": "Fish made of jelly",
+        "answer2": "Marine fish",
+        "answer3": "Marine invertebrates",
+        "answer4": "Amphibians"
+    },
+    {
+        "id": 2,
+        "question": "Jellyfish are __. This means they eat fish, crabs, shrimp and even other jellyfish",
+        "answer1": "Carnivorous",
+        "answer2": "Herbivores",
+        "answer3": "Helium",
+        "answer4": "Backbones"
+    },
+    {
+        "id": 3,
+        "question": "Why do jellyfish digest food quickly",
+        "answer1": "Jellyfish can only eat plants",
+        "answer2": "A heavy stomach would make it difficult to float",
+        "answer3": "Jellyfish don't have a stomach",
+        "answer4": "A heavy stomach makes jellyfish swim very fast"
+    }
+  ],
+ "owl": [
+     {
+         "id": 1,
+         "question": "Where do owls live",
+         "answer1": "Oceans",
+         "answer2": "Desert",
+         "answer3": "Forest",
+         "answer4": "Mountains"
+     },
+     {
+         "id": 2,
+         "question": "What do Owls eat",
+         "answer1": "Plants",
+         "answer2": "Animals",
+         "answer3": "Plants and animals",
+         "answer4": "Grains"
+     },
+     {
+         "id": 3,
+         "question": "When do owls hunt",
+         "answer1": "At night",
+         "answer2": "In the morning",
+         "answer3": "In the afternoon",
+         "answer4": "All the time"
+     }
+ ],
+ "Otter": [
+     {
+         "id": 1,
+         "question": "A river ottre is one of how many species of otters throughout the world",
+         "answer1": "10 Species",
+         "answer2": "6 Species",
+         "answer3": "13 Species",
+         "answer4": "4 Species"
+     },
+     {
+         "id": 2,
+         "question": "What are otter babies called",
+         "answer1": "Germs",
+         "answer2": "Kits",
+         "answer3": "Littles",
+         "answer4": "Pups"
+     },
+     {
+         "id": 3,
+         "question": "What is a river otter home called",
+         "answer1": "Dam",
+         "answer2": "Lodge",
+         "answer3": "Yurt",
+         "answer4": "Den"
+     }
+ ]
