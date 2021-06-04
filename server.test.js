@@ -13,7 +13,7 @@ test('Home page test', () => {
   return request(server)
     .get('/')
     .then(result => {
-      expect(result.text).toContain('')
+      expect(result.text).toContain('Quiz Menu')
       return null
     })
 })
@@ -21,14 +21,14 @@ test('Home page test', () => {
 test('Quiz page test', () => {
   expect.assertions(1)
   return request(server)
-    .get('/')
+    .get('/anteater/1')
     .then(result => {
-      expect(result.text).toContain('')
+      expect(result.text).toContain('A mammal')
       return null
     })
 })
 
-test('Quiz page image test', () => {
+test('Home page image test', () => {
   expect.assertions(1)
   return request(server)
     .get('/')
