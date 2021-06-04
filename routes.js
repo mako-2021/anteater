@@ -1,5 +1,6 @@
 const express = require('express')
 const routes = express.Router()
+const lib = require('./lib')
 
 // Potential way to have quiz page number 1, where :anteater/:1
 routes.get('/', (req, res) => { // ./ in current directory  / -> from root ../ go up a directory to find file
@@ -9,7 +10,11 @@ routes.get('/', (req, res) => { // ./ in current directory  / -> from root ../ g
 routes.get('/:category/:id', (req, res) => {
   const id = req.params.id
   const category = req.params.category
-  res.send(`welcome to page ${id} page of our ${category} quiz`)
+  lib.getQuiz( (err, data) => {
+    // console.log(data)
+    res.send(`welcome to page ${id} page of our ${category} quiz`)
+  })
+  
 })
 
 routes.get('/question', (req, res) => {
