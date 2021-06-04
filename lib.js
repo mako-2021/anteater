@@ -22,7 +22,6 @@ function getQuizData2 (callback, path = './quiz.json') {
       callback(new Error('Unable to load the data file'))
       return
     }
-
     try {
       quizData = JSON.parse(contents)
     } catch (error) {
@@ -30,7 +29,6 @@ function getQuizData2 (callback, path = './quiz.json') {
       callback(new Error('Unable to parse the data file'))
       return
     }
-
     callback(null, quizData)
   })
 }
