@@ -35,7 +35,7 @@ test('Quiz page image test', () => {
     .then(result => {
       const $ = cheerio.load(result.text)
       let img = $('img')
-      expect(img.length).toEqual(0)
+      expect(img.length).toEqual(4)
       return null
     })
 })
